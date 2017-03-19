@@ -1,0 +1,65 @@
+body{
+	background-color: #250050;
+}
+.box1{
+	background-color: #100030;
+	/* margin-left: 180px; */
+    /* margin-right: 180px; */
+    margin-bottom: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.imageclass1 {
+	height: 400px;
+	border-radius: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.imageclass2 {
+	width: 200px;
+	height: 200px;
+	border-radius: 400px;
+}
+
+.large {
+  font-size: 80px;
+  color: rgb(153, 51, 102);
+  text-align: center;
+  margin-bottom: 1px;
+
+}
+
+.medium {
+	font-size: 30px;
+	color: rgb(153, 51, 102);
+	text-align: center;
+}
+
+.small {
+	color: rgb(102, 102, 200);
+	margin-left: 130px;
+}
+
+.länk {
+	color: #0000ff;
+	margin-left: 40px;
+	padding-bottom: 50px;
+}
+.skadisbilder {
+}
+
+h2 {
+color: #990080;
+font-size: 20px;
+}
+
+ol {
+color: #00ffff;	
+background-color: #000000;
+margin-bottom: 60px;
+}
