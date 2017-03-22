@@ -1,0 +1,59 @@
+table.tableizer-table {
+	font-size: 12px;
+	border: 1px solid #CCC; 
+	font-family: Arial, Helvetica, sans-serif;
+} 
+.tableizer-table td {
+	padding: 4px;
+	margin: 3px;
+	border: 1px solid #CCC;
+}
+.tableizer-table th {
+	background-color: #104E8B; 
+	color: #FFF;
+	font-weight: bold;
+}
+td {
+    margin: 0px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 220px;
+    background-color: rgb(55, 174, 113);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent rgb(55, 174, 113) transparent;
+    
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
